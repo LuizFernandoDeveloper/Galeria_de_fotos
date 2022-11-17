@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Adding  font from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./stylesCss/reset.css">
+    <link rel="stylesheet" href="./stylesCss/main.css">
+
+    <title>Galeria de  fotos</title>
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+
+    </header>
+    <form >
+        <h2>Inserir nova Imagem</h2>
+        <input id="endereco-imagem-nova" type="url" required placeholder="Url da imagem"/>
+        <button id="botao-adicionar" type="submit">Adicionar</button>
+        <button id="botao-cancelar" type="reset">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./images/foto1.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./images/foto1.jpg" target="_blank" title="Ver imagem no tamnho real">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto2.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./images/foto2.jpg" target="_blank" title="Ver imagem no tamnho real">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto3.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./images/foto3.jpg" target="_blank" title="Ver imagem no tamnho real">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto4.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./images/foto4.jpg" target="_blank" title="Ver imagem no tamnho real">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./images/foto5.jpg" alt="Pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./images/foto5.jpg" target="_blank" title="Ver imagem no tamnho real">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
