@@ -1,4 +1,4 @@
-# Aplacação Web Galeria de Fotos
+# Aplicação Web Galeria de Fotos
 ### Licença vinculada ao repositório: 
 [![NPM](https://img.shields.io/github/license/LuizFernandoDeveloper/Galeria_de_fotos)](https://github.com/LuizFernandoDeveloper/Galeria_de_fotos/blob/main/LICENSE)
 #
